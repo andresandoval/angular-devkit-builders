@@ -1,0 +1,9 @@
+{
+  "builders": {
+    "env-file-expander": {
+      "description": "The EnvFileExpander builder is a powerful tool designed for Angular projects to dynamically expand environment variables within configuration files. By using this builder, you can seamlessly replace placeholders in source files with actual environment variable values, and generate updated files at specified target locations.",
+      "implementation": "./env-file-expander",
+      "schema": "./env-file-expander/schema.json"
+    }
+  }
+}

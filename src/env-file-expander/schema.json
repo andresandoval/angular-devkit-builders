@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "title": "EnvFileExpander schema",
+  "type": "object",
+  "properties": {
+    "files": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string",
+            "description": "Path to the source file containing placeholders"
+          },
+          "target": {
+            "type": "string",
+            "description": "Path where the expanded file will be generated"
+          }
+        },
+        "required": [
+          "source",
+          "target"
+        ]
+      },
+      "description": "Array of file mappings to process"
+    }
+  },
+  "required": [
+    "files"
+  ]
+}

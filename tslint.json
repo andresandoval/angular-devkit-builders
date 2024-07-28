@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "interface-name": {
+      "options": "never-prefix"
+    },
+    "object-literal-sort-keys": false,
+    "object-literal-shorthand": false,
+    "ordered-imports": false,
+    "no-empty-interface": false
+  }
+}
